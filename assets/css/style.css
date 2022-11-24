@@ -1,0 +1,38 @@
+  .fontSize{
+        font-size: 25px;
+    }
+
+    .mt-30 {
+        margin-top: 30px;}
+    .pt-90 {
+        padding-top: 90px;}
+    
+    @media (max-width: 767px) {
+        .brand-logo {
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap; } }
+      
+      .single-logo {
+        padding: 0 30px; }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .single-logo {
+            padding: 0 15px; } }
+        @media (max-width: 767px) {
+          .single-logo {
+            padding: 0 15px; } }
+        @media (max-width: 767px) {
+          .single-logo {
+            width: 50%; } }
+        @media only screen and (min-width: 576px) and (max-width: 767px) {
+          .single-logo {
+            width: 33.33%; } }
+        .single-logo img {
+          width: 100%;
+          opacity: 0.5;
+          -webkit-transition: all 0.3s ease-out 0s;
+          -moz-transition: all 0.3s ease-out 0s;
+          -ms-transition: all 0.3s ease-out 0s;
+          -o-transition: all 0.3s ease-out 0s;
+          transition: all 0.3s ease-out 0s; }
+        .single-logo:hover img {
+          opacity: 1; }
