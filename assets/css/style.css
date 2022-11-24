@@ -2,10 +2,35 @@
         font-size: 25px;
     }
 
+    .about-area {
+      position: relative;
+      z-index: 5; }
+
+    
+      .about-content {
+        max-width: 480px; }
+        .about-content .text {
+          margin-top: 15px; }
+        .about-content .main-btn {
+          background: -webkit-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+          background: -o-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+          background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+          background-size: 200%;
+          height: 50px;
+          line-height: 50px;
+          padding: 0 35px;
+          margin-top: 40px; }
+
     .mt-30 {
         margin-top: 30px;}
+    .mt-50{
+        margin-top: 50px;
+    }
     .pt-90 {
         padding-top: 90px;}
+    .pt-70{
+        padding-top: 70px;
+    }
     
     @media (max-width: 767px) {
         .brand-logo {
